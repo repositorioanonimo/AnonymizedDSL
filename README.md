@@ -1,30 +1,29 @@
-![SmaC logo](https://github.com/KybeleResearch/SmaC/blob/main/Images/logo.png)
 ================
-* Technological framework to facilitate the development of smart contracts. SmaC is a textual DSL that supports the coding of smart contracts with Solidity. These contracts can be injected to EMF models and then subject to any model-based processing task. In relation to some of the challenges of coding smart contracts, SmaC presents a series of advantages detailed below:  
-   1. SmaC establishes a structural pattern for the coding of a smart contract. The specified smart contract is therefore made more readable and understandable by the developer.  
+* Technological framework to facilitate the development of smart contracts. Anonymized DSL is a textual DSL that supports the coding of smart contracts with Solidity. These contracts can be injected to EMF models and then subject to any model-based processing task. In relation to some of the challenges of coding smart contracts, Anonymized DSL presents a series of advantages detailed below:  
+   1. Anonymized DSL establishes a structural pattern for the coding of a smart contract. The specified smart contract is therefore made more readable and understandable by the developer.  
    2. It requires defining a gas control when executing the loop actions. This avoids infinite loops which may lead to security issues.  
-   3. Although Solidity allows multiple inheritance, that is, a contract can inherit from several contracts at the same time, SmaC only allows single inheritance, which avoids what is known as the *Diamond Problem*. We advocate the use of interfaces to obtain external functionality that is defined outside the smart contract.  
+   3. Although Solidity allows multiple inheritance, that is, a contract can inherit from several contracts at the same time, Anonymized DSL only allows single inheritance, which avoids what is known as the *Diamond Problem*. We advocate the use of interfaces to obtain external functionality that is defined outside the smart contract.  
    4. It contains a series of ad-hoc facilities that can be easily extended or modified at the user's request. Some of these facilities are code autocompletion, validation and quickfixes.
-![SmaC autocomplete display](https://github.com/KybeleResearch/SmaC/blob/main/Videos/SmaCAutocomplete.gif)      
-   6. A set of ad-hoc data types (User & Company) has been bundled in the DSL grammar to facilitate the correspondence between SmaC and e3value notation.
-![SmaC CompanyType display](https://github.com/KybeleResearch/SmaC/blob/main/Videos/SmaC_CompanyType.gif)      
-   8. Any SmaC model (.sce extension) is itself a smart contract defined in Solidity. Therefore, it can be compiled to bytecode by any IDE intended for it, such as Remix.  
-   9. Apart from the EMF model generated from a smart contract encoded from the designed DSL. SmaC generates through Xtend, an eXtensible Markup Language (XML) model that can be interpreted by the Blockly api from the textual model. In this way, a technological bridge is established between the SmaC and SmaCly tools.  
+![Anonymized DSL autocomplete display](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Videos/Anonymized DSLAutocomplete.gif)      
+   6. A set of ad-hoc data types (User & Company) has been bundled in the DSL grammar to facilitate the correspondence between Anonymized DSL and e3value notation.
+![Anonymized DSL CompanyType display](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Videos/Anonymized DSL_CompanyType.gif)      
+   8. Any Anonymized DSL model (.sce extension) is itself a smart contract defined in Solidity. Therefore, it can be compiled to bytecode by any IDE intended for it, such as Remix.  
+   9. Apart from the EMF model generated from a smart contract encoded from the designed DSL. Anonymized DSL generates through Xtend, an eXtensible Markup Language (XML) model that can be interpreted by the Blockly api from the textual model. In this way, a technological bridge is established between the Anonymized DSL and Anonymized DSLly tools.  
 
 
-**SmaC tool use**
+**Anonymized DSL tool use**
 _______________
-![SmaC tool display](https://github.com/KybeleResearch/SmaC/blob/main/Videos/CalculatorFinishX2.gif)
+![Anonymized DSL tool display](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Videos/CalculatorFinishX2.gif)
 
 **ScreenCast**
 _______________
 
-![Purchase smart contract encoded with SmaC](https://github.com/KybeleResearch/SmaC/blob/main/Videos/Images/PurchaseSMAC.png)
+![Purchase smart contract encoded with Anonymized DSL](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Videos/Images/PurchaseAnonymized DSL.png)
 
-**Install SmaC from Update Site🔧**
+**Install Anonymized DSL from Update Site🔧**
 _______________
 
-**It is necessary to have the Xtext, Sirius, e3value and SmaCQA plugins installed previously so that the installation does not generate conflicts.**
+**It is necessary to have the Xtext, Sirius, e3value and Anonymized DSLQA plugins installed previously so that the installation does not generate conflicts.**
 
 * Install Sirius:
    - Link to Sirius install guide:  [Link official site](https://www.eclipse.org/sirius/download.html)
@@ -33,22 +32,22 @@ _______________
 
 * Install required MDE plugins:
 
-   - Download the e3value Update Site: [Link download](https://github.com/KybeleResearch/SmaC/blob/main/Plugins/e3value_Plugins.zip)
-   - Download the SmaCQA Update Site: [Link download](https://github.com/KybeleResearch/SmaC/blob/main/SmaCQA/Plugins/SmaCQA_Plugins.zip)
+   - Download the e3value Update Site: [Link download](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Plugins/e3value_Plugins.zip)
+   - Download the Anonymized DSLQA Update Site: [Link download](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Anonymized DSLQA/Plugins/Anonymized DSLQA_Plugins.zip)
 
 * If you have an Eclipse running :
 
-  1.Download the SmaC Update Site: [Link download](https://github.com/CristianGM23/SM2/blob/master/SmaC_Plugin_Install.zip)
+  1.Download the Anonymized DSL Update Site: [Link download](https://github.com/CristianGM23/SM2/blob/master/Anonymized DSL_Plugin_Install.zip)
 
   2.Choose Help -> Install New Software... from the menu bar and click Add...
 
-![Install New Software](https://github.com/KybeleResearch/SmaC/blob/main/Images/INNoVaSerV_InstallNewSoftware.png)
+![Install New Software](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Images/INNoVaSerV_InstallNewSoftware.png)
 
-  3.Choose the SmaC Update Site File and choose a name. Then, you click Add...
+  3.Choose the Anonymized DSL Update Site File and choose a name. Then, you click Add...
 
-  4.Choose the SmaC plugin and click Next.
+  4.Choose the Anonymized DSL plugin and click Next.
 
-![Install New Software](https://github.com/KybeleResearch/SmaC/blob/main/Images/INNoVaSerV_Install_SmaC_Plugin.png)
+![Install New Software](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Images/INNoVaSerV_Install_Anonymized DSL_Plugin.png)
 
   5.Check the plugins that Eclipse will proceed to install.
 
@@ -58,21 +57,21 @@ _______________
 
   8.After a quick download and a restart of Eclipse
 
-**SmaC Guide📖**
+**Anonymized DSL Guide📖**
 _______________________
 * If you have an Eclipse running:
 
   1.Choose New -> Project -> Choose a name for your project -> Click Finish
 
-  2.Choose New -> Other -> Search by: "SmaC Model" in the search box -> Choose option "SmaC model"
+  2.Choose New -> Other -> Search by: "Anonymized DSL Model" in the search box -> Choose option "Anonymized DSL model"
 
-  3.Choose Smac Model's name -> Choose "File" element as the root of the model -> Ok
+  3.Choose Anonymized DSL Model's name -> Choose "File" element as the root of the model -> Ok
 
-![Select Root Model](https://github.com/KybeleResearch/SmaC/blob/main/Images/SmaC_ProcessCreationModel.JPG)
+![Select Root Model](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Images/Anonymized DSL_ProcessCreationModel.JPG)
 
   4.Write a Solidity Smart contract.
   
-Download a SmaC Guide PDF: [Link download](https://github.com/SM2/blob/master/SmaCUpdateSite.zip)
+Download a Anonymized DSL Guide PDF: [Link download](https://github.com/SM2/blob/master/Anonymized DSLUpdateSite.zip)
 
 **Tips📖**
 ________________________
