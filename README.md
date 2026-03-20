@@ -4,7 +4,7 @@
    2. It requires defining a gas control when executing the loop actions. This avoids infinite loops which may lead to security issues.  
    3. Although Solidity allows multiple inheritance, that is, a contract can inherit from several contracts at the same time, Anonymized DSL only allows single inheritance, which avoids what is known as the *Diamond Problem*. We advocate the use of interfaces to obtain external functionality that is defined outside the smart contract.  
    4. It contains a series of ad-hoc facilities that can be easily extended or modified at the user's request. Some of these facilities are code autocompletion, validation and quickfixes.
-![Anonymized DSL autocomplete display](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Videos/Anonymized DSLAutocomplete.gif)      
+![Anonymized DSL autocomplete display](https://github.com/repositorioanonimo/AnonymizedDSL/blob/main/Videos/Autocomplete.gif)      
    6. A set of ad-hoc data types (User & Company) has been bundled in the DSL grammar to facilitate the correspondence between Anonymized DSL and e3value notation.
 ![Anonymized DSL CompanyType display](https://github.com/repositorioanonimo/AnonymizedDSL/blob/main/Videos/CompanyType.gif)      
    8. Any Anonymized DSL model (.sce extension) is itself a smart contract defined in Solidity. Therefore, it can be compiled to bytecode by any IDE intended for it, such as Remix.  
