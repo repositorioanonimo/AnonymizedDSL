@@ -6,7 +6,7 @@
    4. It contains a series of ad-hoc facilities that can be easily extended or modified at the user's request. Some of these facilities are code autocompletion, validation and quickfixes.
 ![Anonymized DSL autocomplete display](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Videos/Anonymized DSLAutocomplete.gif)      
    6. A set of ad-hoc data types (User & Company) has been bundled in the DSL grammar to facilitate the correspondence between Anonymized DSL and e3value notation.
-![Anonymized DSL CompanyType display](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Videos/Anonymized DSL_CompanyType.gif)      
+![Anonymized DSL CompanyType display](https://github.com/repositorioanonimo/AnonymizedDSL/blob/main/Videos/CompanyType.gif)      
    8. Any Anonymized DSL model (.sce extension) is itself a smart contract defined in Solidity. Therefore, it can be compiled to bytecode by any IDE intended for it, such as Remix.  
    9. Apart from the EMF model generated from a smart contract encoded from the designed DSL. Anonymized DSL generates through Xtend, an eXtensible Markup Language (XML) model that can be interpreted by the Blockly api from the textual model. In this way, a technological bridge is established between the Anonymized DSL and Anonymized DSLly tools.  
 
