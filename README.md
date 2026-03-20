@@ -13,12 +13,12 @@
 
 **Anonymized DSL tool use**
 _______________
-![Anonymized DSL tool display](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Videos/CalculatorFinishX2.gif)
+![Anonymized DSL tool display](https://github.com/repositorioanonimo/AnonymizedDSL/blob/main/Videos/CalculatorFinishX2.gif)
 
 **ScreenCast**
 _______________
 
-![Purchase smart contract encoded with Anonymized DSL](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Videos/Images/PurchaseAnonymized DSL.png)
+![Purchase smart contract encoded with Anonymized DSL](https://github.com/repositorioanonimo/AnonymizedDSL/blob/main/Images/PurchaseContract.png)
 
 **Install Anonymized DSL from Update Site🔧**
 _______________
@@ -37,17 +37,17 @@ _______________
 
 * If you have an Eclipse running :
 
-  1.Download the Anonymized DSL Update Site: [Link download](https://github.com/CristianGM23/SM2/blob/master/Anonymized DSL_Plugin_Install.zip)
+  1.Download the Anonymized DSL Update Site: [Link download](https://github.com/repositorioanonimo/AnonymizedDSL/blob/main/AnonymizedDSL.zip)
 
   2.Choose Help -> Install New Software... from the menu bar and click Add...
 
-![Install New Software](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Images/INNoVaSerV_InstallNewSoftware.png)
+![Install New Software](https://github.com/repositorioanonimo/AnonymizedDSL/blob/main/Images/InstallNewSoftware.png)
 
   3.Choose the Anonymized DSL Update Site File and choose a name. Then, you click Add...
 
   4.Choose the Anonymized DSL plugin and click Next.
 
-![Install New Software](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Images/INNoVaSerV_Install_Anonymized DSL_Plugin.png)
+![Install New Software]()
 
   5.Check the plugins that Eclipse will proceed to install.
 
@@ -67,11 +67,10 @@ _______________________
 
   3.Choose Anonymized DSL Model's name -> Choose "File" element as the root of the model -> Ok
 
-![Select Root Model](https://github.com/KybeleResearch/Anonymized DSL/blob/main/Images/Anonymized DSL_ProcessCreationModel.JPG)
+![Select Root Model](https://github.com/repositorioanonimo/AnonymizedDSL/blob/main/Images/Oculto_SmaC_ProcessCreationModel.JPG)
 
   4.Write a Solidity Smart contract.
   
-Download a Anonymized DSL Guide PDF: [Link download](https://github.com/SM2/blob/master/Anonymized DSLUpdateSite.zip)
 
 **Tips📖**
 ________________________
